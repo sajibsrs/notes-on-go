@@ -1,4 +1,4 @@
-# Variable
+# # Variable
 
 ## 1 # Declaration and assignment
 There are couple of ways of declaring the variable in **Go**, depending on their **scope** and **type**. For now we'll see declaring simple **integer** variable. Variables with different data types will be discussed in their own section.
