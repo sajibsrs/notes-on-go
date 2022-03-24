@@ -5,7 +5,7 @@
 * [ ] [Data types]
 * [ ] [Variable](docs/variable.md)
 * [ ] [Constant]
-* [ ] [Array](docs/array.go)
+* [ ] [Array](docs/array.md)
 * [ ] [Slice]
 * [ ] [Map]
 * [ ] [Range]
