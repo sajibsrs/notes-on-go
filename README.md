@@ -3,9 +3,9 @@
 ## # Contents
 * [ ] [Simplest Go program]
 * [ ] [Data types]
-* [ ] [Variable](variable.md)
+* [ ] [Variable](docs/variable.md)
 * [ ] [Constant]
-* [ ] [Array](array.go)
+* [ ] [Array](docs/array.go)
 * [ ] [Slice]
 * [ ] [Map]
 * [ ] [Range]
