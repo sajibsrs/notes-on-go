@@ -1,4 +1,4 @@
-# Go Array
+# # Go Array
 Array has a fixed length in Go.
 
 ## 1 # Declaring array
