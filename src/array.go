@@ -3,19 +3,13 @@ package main
 import "fmt"
 
 func main() {
+	arr_one := [...]int{1, 2, 3}
+	var arr_two [3]string
 
-	var a [5]int
-	fmt.Println("emp:", a)
-	a[4] = 100
-	fmt.Println("set:", a)
-	b := [5]int{1, 2, 3, 4, 5}
-	fmt.Println("dcl:", b)
-	s := make([]string, 3)
-	s[0] = "a"
-	s[1] = "b"
-	s[2] = "c"
-	s[3] = "d"
-	fmt.Println("emp:", s)
-	fmt.Println("emp:", len(s))
-	fmt.Println("emp:", cap(s))
+	arr_two[0] = "a"
+	arr_two[1] = "b"
+	arr_two[2] = "c"
+
+	fmt.Println("arr_one:", arr_one)
+	fmt.Println("arr_two:", arr_two)
 }
