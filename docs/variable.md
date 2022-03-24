@@ -6,7 +6,7 @@ There are couple of ways of declaring the variable in **Go**, depending on their
 ### 1.1 # Just the declaration:
 
 ```go
-var value int;
+var value int
 ```
 
 ### 1.2 # Declaration and assignment:
