@@ -10,6 +10,6 @@ func main() {
 	arrTwo[1] = "b"
 	arrTwo[2] = "c"
 
-	fmt.Println("arr_one:", arrOne)
-	fmt.Println("arr_two:", arrTwo)
+	fmt.Println("arrOne:", arrOne)
+	fmt.Println("arrTwo:", arrTwo)
 }
