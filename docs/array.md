@@ -6,6 +6,8 @@ In order to declare an array we need two things.
 * It's length
 * It's element type
 
+*Note: Unlike other dynamically typed languages, Go does not allow type mixing in array. Every element must be of same type.*
+
 ### 1.1 # Length defined
 
 ```go
