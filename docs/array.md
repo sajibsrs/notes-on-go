@@ -21,6 +21,13 @@ array := [...]int{1, 2, 3}
 ```
 *Note: Inferred length syntax is only available if you assign a value along with the declaration.*
 
+### 1.3 # Array length
+We can determine what is the length of an array with:
+
+```go
+len(array)
+```
+
 ## 2 # Code
 
 ```go
