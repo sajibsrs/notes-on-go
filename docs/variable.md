@@ -25,4 +25,5 @@ Method two:
 value := 10
 ```
 *Note: Method two is only available **inside a function**  scope.*
+
 *Note: It is not possible to use `:=` operator without assigning a value to it.*
