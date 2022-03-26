@@ -67,4 +67,4 @@ slc = append(slc, 4)
 
 *Note: If we exceed slice length by adding new items, slice capacity automatically increases to accommodate new items. If slice capacity is 3 and we add 4 items it's capacity will increase to 6.*
 
-*Note: The formula of increment is, if capacity is n then next capacity will be 2n then 3n then 4n and so on.*
+*Note: The formula of increment is, if capacity is n then next capacity will be 2n then 3n then 4n and so on. Are we wasting some memory if we are not using all capacity? Hell ya, but we have lots of memory now. Right? (pun intended).*
