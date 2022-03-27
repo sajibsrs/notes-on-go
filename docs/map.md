@@ -58,3 +58,27 @@ mp["eggs"] = 12
 
 fmt.Println("Eggs count: ", mp["eggs"]);
 ```
+
+## 4 # Key existence
+When receiving a value by it's key from a map, we can check if that key even exists. In the example below the **first** return value holds the value and the **second** one (optional) holds a **boolean** value. If key exists it returns true or false otherwise.
+
+```go
+mp := map[string]string{"nice": "weather", "lovely": "environment"}
+
+val, st := mp["nice"]
+
+fmt.Println("val and status: ", val, st)
+```
+
+If we are not going to use the second return value, we can ignore it with `_` (underscore).
+
+
+```go
+mp := map[string]string{"nice": "weather", "lovely": "environment"}
+
+val, _ := mp["nice"]
+
+fmt.Println("val: ", val)
+```
+
+or simply don't use the second variable at all.
