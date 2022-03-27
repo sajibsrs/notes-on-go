@@ -20,4 +20,10 @@ func main() {
 	fmt.Println("s1:", s1)
 	fmt.Println("s1 len:", len(s1))
 	fmt.Println("s1 cap:", cap(s1))
+
+	s2 := s[1:3]
+
+	fmt.Println("s3:", s2)
+	fmt.Println("s1 len:", len(s2))
+	fmt.Println("s1 cap:", cap(s2))
 }
