@@ -47,3 +47,14 @@ mp := make(map[string]int)
 mp["juice"] = 1
 mp["eggs"] = 12
 ```
+
+## 3 # Accessing map elements
+
+```go
+mp := make(map[string]int)
+
+mp["juice"] = 1
+mp["eggs"] = 12
+
+fmt.Println("Eggs count: ", mp["eggs"]);
+```
