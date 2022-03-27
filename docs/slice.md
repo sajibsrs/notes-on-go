@@ -36,6 +36,12 @@ arr := [5]{1, 2, 3, 4, 5}
 slc := arr[2:4]
 ```
 
+The `[2:4]` is index range 2 to 4, that starts from index 0 (same as array). Both indexes are inclusive.
+
+The length will be the number of items selected with the range. In that case that will be 3.
+
+If the array length is n and we selected x items. The capacity of the slice will be `n+x`.
+
 ## 4 # Slice with make
 When using `make()`, we can define it's second argument as length and third argument as capacity. Capacity is optional.
 
