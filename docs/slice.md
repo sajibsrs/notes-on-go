@@ -58,7 +58,7 @@ slc[2] = 3
 slc = append(slc, 4)
 ```
 
-*Note: If you try to add more elements than it's length with array method, it will result in an error.*
+*Note: If you try to add more elements than it's length with array method, it will result in an error. But you can use `append` as much as you want.*
 
 ```go
 slc := []int{}
