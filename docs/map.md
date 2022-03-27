@@ -82,3 +82,10 @@ fmt.Println("val: ", val)
 ```
 
 or simply don't use the second variable at all.
+
+## 5 # Removing elements
+
+```go
+delete(mp, "nice")
+```
+Where `mp` is the map.
