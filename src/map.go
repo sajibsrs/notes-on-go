@@ -7,11 +7,13 @@ func main() {
 	mp["hello"] = "world"
 	mp["good"] = "morning"
 
-	hlw := mp["hello"]
+	delete(mp, "good")
+
+	hlw, st := mp["hello"]
 
 	fmt.Println("mp: ", mp)
 	fmt.Println("mp: ", len(mp))
-	fmt.Println("hlw: ", hlw)
+	fmt.Println("hlw: ", hlw, st)
 
 	mp1 := make(map[string]string)
 
@@ -21,4 +23,10 @@ func main() {
 	fmt.Println("mp1: ", mp1)
 	fmt.Println("mp1: ", len(mp1))
 	fmt.Println("mp1: ", mp1["hello"])
+
+	mp2 := map[string]string{"nice": "weather", "lovely": "environment"}
+
+	val, st1 := mp2["nice"]
+
+	fmt.Println("val and status: ", val, st1)
 }
