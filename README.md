@@ -3,11 +3,11 @@
 ## # Contents
 * [ ] [Simplest Go program]
 * [ ] [Data types]
-* [ ] [Variable](docs/variable.md)
+* [x] [Variable](docs/variable.md)
 * [ ] [Constant]
-* [ ] [Array](docs/array.md)
-* [ ] [Slice](docs/slice.md)
-* [ ] [Map](docs/map.md)
+* [x] [Array](docs/array.md)
+* [x] [Slice](docs/slice.md)
+* [x] [Map](docs/map.md)
 * [ ] [Range]
 * [ ] [Conditionals]
 * [ ] [Functions]
