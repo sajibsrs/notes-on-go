@@ -11,3 +11,24 @@ type Person struct {
     location string
 }
 ```
+
+## 2 # Access members
+To access struct member, use `(.)` dot operator.
+
+```go
+type Person struct {
+    name string
+    age int
+    location string
+}
+
+func main() {
+    var p Person
+
+    p.name = "Xavier"
+    p.age = 34
+    p.location = "NY"
+
+    fmt.Println("Name: ", p.name)
+}
+```
