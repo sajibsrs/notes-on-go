@@ -12,7 +12,7 @@ type Person struct {
 }
 ```
 
-## 2 # Access members
+## 2 # Access struct members
 To access struct member, use `(.)` dot operator.
 
 ```go
